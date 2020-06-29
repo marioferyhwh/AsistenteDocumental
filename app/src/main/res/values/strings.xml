@@ -14,4 +14,10 @@
     <string name="ref_proyect">Numero de Referencia</string>
     <string name="name_proyect">Nombre del Proyecto</string>
     <string name="doc_proyect">Documentación</string>
+    <string name="doc_plan_elc">Planos eléctricos</string>
+    <string name="doc_memory">Memorias de cálculo</string>
+    <string name="doc_cer">Certificados de conformidad de productos eléctricos en digital</string>
+    <string name="doc_dec">"Declaración de cumplimiento "</string>
+    <string name="doc_copy">Copia de la matrícula profesional del diseñador</string>
+    <string name="doc_asign">Asignación proyecto</string>
 </resources>
