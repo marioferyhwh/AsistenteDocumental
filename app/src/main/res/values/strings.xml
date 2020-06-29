@@ -9,4 +9,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="client_proyect">Cliente</string>
+    <string name="id_proyect">Identificaion</string>
+    <string name="ref_proyect">Numero de Referencia</string>
+    <string name="name_proyect">Nombre del Proyecto</string>
+    <string name="doc_proyect">Documentación</string>
 </resources>
