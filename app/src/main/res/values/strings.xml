@@ -20,4 +20,7 @@
     <string name="doc_dec">"Declaración de cumplimiento "</string>
     <string name="doc_copy">Copia de la matrícula profesional del diseñador</string>
     <string name="doc_asign">Asignación proyecto</string>
+    <string name="ins_o_hv">Hoja de vida</string>
+    <string name="ins_o_pre">Preliminar</string>
+    <string name="ins_o_imparcialidad">Imparcialidad</string>
 </resources>
