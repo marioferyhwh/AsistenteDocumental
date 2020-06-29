@@ -1,6 +1,7 @@
 package com.example.asistentedocumental.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -14,6 +15,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import com.example.asistentedocumental.NewProyect
 
 import com.example.asistentedocumental.R
 
@@ -106,6 +108,7 @@ class LoginActivity : AppCompatActivity() {
                 "$welcome $displayName",
                 Toast.LENGTH_LONG
         ).show()
+        startActivity(Intent(this,NewProyect::class.java))
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {

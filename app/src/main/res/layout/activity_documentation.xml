@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/but_asig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
