@@ -10,10 +10,10 @@ class Inspection : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inspection)
         but_doc.setOnClickListener {
-            startActivity(Intent(this,Documentation::class.java))
+            startActivity(Intent(this, Documentation::class.java))
         }
         but_doc_2.setOnClickListener {
-            startActivity(Intent(this,InspectionOthers::class.java))
+            startActivity(Intent(this, InspectionOthers::class.java))
         }
     }
 }

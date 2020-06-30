@@ -10,7 +10,7 @@ class NewProyect : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_proyect)
         but_doc.setOnClickListener {
-            startActivity(Intent(this,Documentation::class.java))
+            startActivity(Intent(this, Documentation::class.java))
         }
     }
 }

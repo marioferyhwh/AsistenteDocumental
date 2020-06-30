@@ -23,4 +23,23 @@
     <string name="ins_o_hv">Hoja de vida</string>
     <string name="ins_o_pre">Preliminar</string>
     <string name="ins_o_imparcialidad">Imparcialidad</string>
+    <string-array name="resp_cumple">
+        <item>CUMPLE</item>
+        <item>NO APLICA</item>
+        <item>NO CUMPLE</item>
+    </string-array>
+    <string-array name="resp_ok">
+        <item>Ok</item>
+        <item>N.A.</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="resp_result">
+        <item>APROBADO</item>
+        <item>NO APROBADO</item>
+    </string-array>
+
+    <string name="resp_obs">OBSERVACIONES</string>
+    <string name="resp_obs_adc">Observaciones Adicionales</string>
+    <string name="firma">firma</string>
 </resources>

@@ -18,6 +18,7 @@ import android.widget.Toast
 import com.example.asistentedocumental.NewProyect
 
 import com.example.asistentedocumental.R
+import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
@@ -28,10 +29,6 @@ class LoginActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_login)
 
-        val username = findViewById<EditText>(R.id.username)
-        val password = findViewById<EditText>(R.id.password)
-        val login = findViewById<Button>(R.id.login)
-        val loading = findViewById<ProgressBar>(R.id.loading)
 
         loginViewModel = ViewModelProviders.of(this, LoginViewModelFactory())
                 .get(LoginViewModel::class.java)
@@ -62,6 +59,7 @@ class LoginActivity : AppCompatActivity() {
             }
             setResult(Activity.RESULT_OK)
 
+            startActivity(Intent(this,NewProyect::class.java))
             //Complete and destroy login activity once successful
             finish()
         })
@@ -108,7 +106,6 @@ class LoginActivity : AppCompatActivity() {
                 "$welcome $displayName",
                 Toast.LENGTH_LONG
         ).show()
-        startActivity(Intent(this,NewProyect::class.java))
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {
