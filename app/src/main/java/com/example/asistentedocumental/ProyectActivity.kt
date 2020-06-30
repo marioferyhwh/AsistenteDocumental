@@ -3,17 +3,14 @@ package com.example.asistentedocumental
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_inspection.*
+import kotlinx.android.synthetic.main.activity_proyect.*
 
-class InspectionActivity : AppCompatActivity() {
+class ProyectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inspection)
-        but_doc.setOnClickListener {
+        setContentView(R.layout.activity_proyect)
+        but_pr_doc.setOnClickListener {
             startActivity(Intent(this, DocumentationActivity::class.java))
-        }
-        but_doc_2.setOnClickListener {
-            startActivity(Intent(this, InspectionOthers::class.java))
         }
     }
 }

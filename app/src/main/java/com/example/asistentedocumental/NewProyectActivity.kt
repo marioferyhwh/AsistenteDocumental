@@ -9,7 +9,7 @@ class NewProyectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_proyect)
-        but_doc.setOnClickListener {
+        but_pr_doc.setOnClickListener {
             startActivity(Intent(this, DocumentationActivity::class.java))
         }
     }

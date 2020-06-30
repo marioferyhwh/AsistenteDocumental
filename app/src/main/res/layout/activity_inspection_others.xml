@@ -14,7 +14,7 @@
             android:id="@+id/button10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ins_o_imparcialidad"
+            android:text="@string/pr_imparcialiti"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
@@ -22,21 +22,21 @@
             app:layout_constraintVertical_bias="0.133" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/but_pr_pre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ins_o_pre"
+            android:text="@string/pr_pre"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button10" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/but_pr_hv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ins_o_hv"
+            android:text="@string/pr_hv"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button11" />
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_pre" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

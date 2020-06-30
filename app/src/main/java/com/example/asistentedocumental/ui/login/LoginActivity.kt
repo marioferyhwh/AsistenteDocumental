@@ -13,6 +13,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
+import com.example.asistentedocumental.HomeActivity
 import com.example.asistentedocumental.NewProyectActivity
 
 import com.example.asistentedocumental.R
@@ -57,7 +58,7 @@ class LoginActivity : AppCompatActivity() {
             }
             setResult(Activity.RESULT_OK)
 
-            startActivity(Intent(this,NewProyectActivity::class.java))
+            startActivity(Intent(this,HomeActivity::class.java))
             //Complete and destroy login activity once successful
             finish()
         })

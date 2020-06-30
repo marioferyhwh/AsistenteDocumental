@@ -10,7 +10,7 @@ class DocumentationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_documentation)
         but_asig.setOnClickListener {
-            startActivity(Intent(this, InspectionActivity::class.java))
+            startActivity(Intent(this, ProyectActivity::class.java))
         }
     }
 

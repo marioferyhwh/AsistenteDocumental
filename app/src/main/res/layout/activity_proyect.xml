@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProyectActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/but_pr_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doc_proyect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/but_pr_impar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_imparcialiti"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_doc" />
+
+        <Button
+            android:id="@+id/but_pr_pre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_pre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_impar" />
+
+        <Button
+            android:id="@+id/but_pr_hv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_hv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_pre" />
+
+
+        <Button
+            android:id="@+id/but_pr_l_ground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_list_res_ground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_hv" />
+
+        <Button
+            android:id="@+id/but_pr_l_con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_list_res_cont"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_l_ground" />
+
+        <Button
+            android:id="@+id/but_pr_l_var"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_list_res_var"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_l_con" />
+
+
+        <Button
+            android:id="@+id/but_pr_re_cert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_rev_cert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_l_var" />
+
+        <Button
+            android:id="@+id/but_pr_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_list_ver"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_re_cert" />
+
+        <Button
+            android:id="@+id/but_pr_lv_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_list_ver_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_lv" />
+
+        <Button
+            android:id="@+id/but_pr_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pr_ok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_lv_end" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
