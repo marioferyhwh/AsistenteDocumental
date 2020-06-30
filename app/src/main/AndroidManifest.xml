@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".InspectionOthers" />
+        <activity android:name=".ProyectAsigActivity" />
         <activity android:name=".ProyectActivity" />
         <activity android:name=".DocumentationActivity" />
         <activity android:name=".ui.login.LoginActivity" />
