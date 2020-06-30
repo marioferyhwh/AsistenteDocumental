@@ -23,6 +23,17 @@
     <string name="pr_hv">Hoja de vida</string>
     <string name="pr_pre">Preliminar</string>
     <string name="pr_imparcialiti">Imparcialidad</string>
+    <string name="resp_obs">OBSERVACIONES</string>
+    <string name="resp_obs_adc">Observaciones Adicionales</string>
+    <string name="firma">firma</string>
+    <string name="new_proyect">Nuevo proyecto</string>
+    <string name="pr_list_res_ground">LISTA DE RESULTADOS DE MEDICION DE PUESTA A TIERRA</string>
+    <string name="pr_list_res_cont">LISTA DE RESULTADOS DE MEDICIÓN DE CONTINUIDAD</string>
+    <string name="pr_list_res_var">LISTA DE RESULTADOS DE MEDICIÓN DE VARIABLES ELECTRICAS</string>
+    <string name="pr_rev_cert">REVISIÓN DE MATERIALES Y CERTIFICADOS DE PRODUCTO PARA RETIE</string>
+    <string name="pr_ok">APROBAR</string>
+    <string name="pr_list_ver_end">LISTA DE VERIFICACIÓN DE INSTALACIONES DE USO FINAL</string>
+    <string name="pr_list_ver">LISTA VERIFICACIÓN DE REQUISITOS ESENCIALES</string>
     <string-array name="resp_cumple">
         <item>CUMPLE</item>
         <item>NO APLICA</item>
@@ -38,16 +49,4 @@
         <item>APROBADO</item>
         <item>NO APROBADO</item>
     </string-array>
-
-    <string name="resp_obs">OBSERVACIONES</string>
-    <string name="resp_obs_adc">Observaciones Adicionales</string>
-    <string name="firma">firma</string>
-    <string name="new_proyect">Nuevo proyecto</string>
-    <string name="pr_list_res_ground">LISTA DE RESULTADOS DE MEDICION DE PUESTA A TIERRA</string>
-    <string name="pr_list_res_cont">LISTA DE RESULTADOS DE MEDICIÓN DE CONTINUIDAD</string>
-    <string name="pr_list_res_var">LISTA DE RESULTADOS DE MEDICIÓN DE VARIABLES ELECTRICAS</string>
-    <string name="pr_rev_cert">REVISIÓN DE MATERIALES Y CERTIFICADOS DE PRODUCTO PARA RETIE</string>
-    <string name="pr_ok">APROBAR</string>
-    <string name="pr_list_ver_end">LISTA DE VERIFICACIÓN DE INSTALACIONES DE USO FINAL</string>
-    <string name="pr_list_ver">LISTA VERIFICACIÓN DE REQUISITOS ESENCIALES</string>
 </resources>
