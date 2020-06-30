@@ -6,11 +6,18 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_documentation.*
 
 class DocumentationActivity : AppCompatActivity() {
+    var editOk: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_documentation)
+        editOk = intent.getBooleanExtra("editOk", false)
+
         but_asig.setOnClickListener {
-            startActivity(Intent(this, ProyectActivity::class.java))
+
+
+            val intent = Intent(this, ProyectAsigActivity::class.java)
+            intent.putExtra("editOk", editOk)
+            startActivity(intent)
         }
     }
 
