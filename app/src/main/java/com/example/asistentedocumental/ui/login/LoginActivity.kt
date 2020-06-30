@@ -11,11 +11,9 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.Button
 import android.widget.EditText
-import android.widget.ProgressBar
 import android.widget.Toast
-import com.example.asistentedocumental.NewProyect
+import com.example.asistentedocumental.NewProyectActivity
 
 import com.example.asistentedocumental.R
 import kotlinx.android.synthetic.main.activity_login.*
@@ -59,7 +57,7 @@ class LoginActivity : AppCompatActivity() {
             }
             setResult(Activity.RESULT_OK)
 
-            startActivity(Intent(this,NewProyect::class.java))
+            startActivity(Intent(this,NewProyectActivity::class.java))
             //Complete and destroy login activity once successful
             finish()
         })
