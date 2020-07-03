@@ -48,7 +48,7 @@
         <item>APROBADO</item>
         <item>NO APROBADO</item>
     </string-array>
-
+    <string name="l_esen1">DISPOSICIONES GENERALES</string>
     <string name="l_esen1_1">Verificar la aplicabilidad del objeto fundamental de este reglamento el cual es establecer las medidas tendientes a garantizar la seguridad de las personas, de la vida tanto animal como vegetal y la preservación del medio ambiente; previniendo, minimizando o eliminando los riesgos de origen eléctrico.</string>
     <string name="l_esen1_2">Verificar que toda instalación objeto del RETIE demuestre su cumplimiento mediante la Declaración de Cumplimiento suscrita por quien realice directamente la construcción, la remodelación o ampliación de la instalación eléctrica.</string>
     <string name="l_esen1_3">Verificar que los productos usados en las instalaciones eléctricas objeto del RETIE y que estén listados en el Tabla 2.1, deben demostrar la conformidad con el RETIE mediante un Certificado de Conformidad de Producto expedido por un organismo de certificación acreditado, tal como se establece en el Capítulo 10</string>
