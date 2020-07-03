@@ -39,11 +39,10 @@ class ListQuestType1Adapter(val quests: ArrayList<QuestType1>) :
             id.text = questSelect.id.toString()
             quest.text = questSelect.quest.toString()
             retie.text = questSelect.Retie.toString()
-
-            if (retie.text === "") {
+            /*if (retie.text === "") {
                 retie.visibility = View.GONE
                 spinner.visibility = View.GONE
-            }
+            }*/
         }
 
     }
