@@ -11,21 +11,21 @@
         <TextView
             android:id="@+id/testview_id"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="1_1"
             android:textAlignment="center" />
 
         <TextView
             android:id="@+id/testview_ques"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/l_esen1_1"
             android:textAlignment="center" />
 
         <TextView
             android:id="@+id/testview_retie"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/l_esen_ret1_1"
             android:textAlignment="textEnd" />
 

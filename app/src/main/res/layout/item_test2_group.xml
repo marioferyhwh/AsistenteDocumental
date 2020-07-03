@@ -5,8 +5,26 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:padding="8dp">
-<androidx.recyclerview.widget.RecyclerView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="#E8E8E8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/testview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1_1"
+            android:textAlignment="center" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleviewlistesentials_test2Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </androidx.cardview.widget.CardView>

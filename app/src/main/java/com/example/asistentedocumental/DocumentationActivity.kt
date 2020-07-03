@@ -24,7 +24,34 @@ class DocumentationActivity : AppCompatActivity() {
             var intent = Intent(this,ListEsentialsTest1Activity::class.java)
             startActivity(intent)
         }
+        button2.setOnClickListener {
+            var intent = Intent(this,ListEsentialsTest2Activity::class.java).apply {
+                putExtra("formato",1)
+            }
+            startActivity(intent)
+        }
 
+        button3.setOnClickListener {
+            var intent = Intent(this,ListEsentialsTest2Activity::class.java).apply {
+                putExtra("formato",2)
+            }
+            startActivity(intent)
+        }
+
+        button4.setOnClickListener {
+            var intent = Intent(this,ListEsentialsTest2Activity::class.java).apply {
+                putExtra("formato",3)
+            }
+            startActivity(intent)
+        }
+/*
+        button5.setOnClickListener {
+            var intent = Intent(this,ListEsentialsTest2Activity::class.java).apply {
+                putExtra("formato",4)
+            }
+            startActivity(intent)
+        }
+*/
     }
 
 }
