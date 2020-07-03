@@ -70,7 +70,7 @@ data  class CheckListGeneral(
     val List_1_B_4_2:String="",
     val List_1_B_5:String="",
     val List_1_B_6:String="",
-    val List_1_B_7OK:Boolean= false
-    val List_1_B_8:String="",
+    val List_1_B_7OK:Boolean= false,
+    val List_1_B_8:String=""
 
 )
