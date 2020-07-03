@@ -19,6 +19,12 @@ class DocumentationActivity : AppCompatActivity() {
             intent.putExtra("editOk", editOk)
             startActivity(intent)
         }
+
+        button1.setOnClickListener {
+            var intent = Intent(this,ListEsentialsTest1Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }
