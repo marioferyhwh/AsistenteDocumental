@@ -4,7 +4,6 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Spinner
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.asistentedocumental.ProyectActivity
@@ -30,9 +29,9 @@ class ProjetsListAdapter(val projets:ArrayList<Project>): RecyclerView.Adapter<P
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(projec: Project) {
-            var id = itemView.findViewById<TextView>(R.id.testview_name)
-            var estate = itemView.findViewById<TextView>(R.id.testview_estado)
-            var numero = itemView.findViewById<TextView>(R.id.testview_numero)
+            var id = itemView.findViewById<TextView>(R.id.textview_name)
+            var estate = itemView.findViewById<TextView>(R.id.textview_estado)
+            var numero = itemView.findViewById<TextView>(R.id.textview_numero)
             val button = itemView.findViewById<TextView>(R.id.button)
             id.text = "ID:"+projec.id.toString()
             estate.text = "Cliente:"+projec.client_name.toString()

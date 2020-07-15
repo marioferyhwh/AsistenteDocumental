@@ -14,21 +14,21 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/testview_id"
+            android:id="@+id/textview_id"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="1_1"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/testview_ques"
+            android:id="@+id/textview_ques"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/l_esen1_1"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/testview_retie"
+            android:id="@+id/textview_retie"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/l_esen_ret1_1"

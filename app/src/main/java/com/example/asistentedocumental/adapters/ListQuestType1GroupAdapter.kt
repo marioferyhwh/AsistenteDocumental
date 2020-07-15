@@ -3,12 +3,10 @@ package com.example.asistentedocumental.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Spinner
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.asistentedocumental.R
-import com.example.asistentedocumental.models.QuestType1
 import com.example.asistentedocumental.models.QuestType1Group
 
 class ListQuestType1GroupAdapter(val quests: ArrayList<QuestType1Group>) :RecyclerView .Adapter<ListQuestType1GroupAdapter.ViewHolder>() {
@@ -31,7 +29,7 @@ class ListQuestType1GroupAdapter(val quests: ArrayList<QuestType1Group>) :Recycl
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(questGroup: QuestType1Group) {
-            val title = itemView.findViewById<TextView>(R.id.testview_title)
+            val title = itemView.findViewById<TextView>(R.id.textview_title)
             val recyclerView = itemView.findViewById<RecyclerView>(R.id.recycleviewlistesentials_test2Group)
 
             title.text = questGroup.title.toString()

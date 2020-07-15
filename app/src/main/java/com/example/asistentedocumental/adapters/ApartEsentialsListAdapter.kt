@@ -30,8 +30,8 @@ class ApartEsentialsListAdapter (val esentials:ArrayList<ListVerifEsentials>): R
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(projec: ListVerifEsentials) {
-            var id = itemView.findViewById<TextView>(R.id.testview_id)
-            var descrip = itemView.findViewById<TextView>(R.id.testview_des)
+            var id = itemView.findViewById<TextView>(R.id.textview_id)
+            var descrip = itemView.findViewById<TextView>(R.id.textview_ret)
             val button  = itemView.findViewById<Button>(R.id.button)
             id.text = "ID:"+projec.id.toString()
             descrip.text = "apartamento:"+projec.apart.toString()

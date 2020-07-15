@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.asistentedocumental.R
 import com.example.asistentedocumental.models.QuestType1Group
-import kotlinx.android.synthetic.main.activity_lisr_esentials_test2.*
 
 class ListQuestType2GroupAdapter(val quests: ArrayList<QuestType1Group>) :RecyclerView .Adapter<ListQuestType2GroupAdapter.ViewHolder>() {
 
@@ -30,7 +29,7 @@ class ListQuestType2GroupAdapter(val quests: ArrayList<QuestType1Group>) :Recycl
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(questGroup: QuestType1Group) {
-            val title = itemView.findViewById<TextView>(R.id.testview_title)
+            val title = itemView.findViewById<TextView>(R.id.textview_title)
             val recyclerView = itemView.findViewById<RecyclerView>(R.id.recycleviewlistesentials_test2Group)
 
             title.text = questGroup.title.toString()

@@ -14,21 +14,21 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/testview_name"
+            android:id="@+id/textview_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Apartemento 1"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/testview_estado"
+            android:id="@+id/textview_estado"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="No Aprovado"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/testview_numero"
+            android:id="@+id/textview_numero"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="01111111"
