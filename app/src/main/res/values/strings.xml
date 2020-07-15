@@ -239,5 +239,7 @@
     <string name="l_esen_ret6_16_1">RETIE Articulo 19</string>
     <string name="l_esen_ret7_1">RETIE Articulo 20</string>
     <string name="l_esen_ret7_2">RETIE Articulo 20</string>
+    <string name="aprt">apartamento</string>
+    <string name="create">Crear</string>
 
 </resources>
