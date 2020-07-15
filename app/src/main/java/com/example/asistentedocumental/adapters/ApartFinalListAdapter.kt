@@ -13,7 +13,7 @@ class ApartFinalListAdapter (val esentials:ArrayList<ListVerifFinal>): RecyclerV
         parent: ViewGroup,
         viewType: Int
     ): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_verifi_1, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_verifi_2, parent, false)
         return ViewHolder(view)
     }
 
