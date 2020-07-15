@@ -27,10 +27,10 @@ class ApartFinalListAdapter (val esentials:ArrayList<ListVerifFinal>): RecyclerV
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(projec: ListVerifFinal) {
-            var id = itemView.findViewById<TextView>(R.id.testview_name)
+            var id = itemView.findViewById<TextView>(R.id.testview_id)
             var descrip = itemView.findViewById<TextView>(R.id.testview_des)
-            id.text = projec.id.toString()
-            descrip.text = projec.apart.toString()
+            id.text = "ID:"+projec.id.toString()
+            descrip.text = "Lugar:"+projec.apart.toString()
         }
     }
 }

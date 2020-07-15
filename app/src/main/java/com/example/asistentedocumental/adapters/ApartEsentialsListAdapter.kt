@@ -27,10 +27,10 @@ class ApartEsentialsListAdapter (val esentials:ArrayList<ListVerifEsentials>): R
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun binbQuest(projec: ListVerifEsentials) {
-            var id = itemView.findViewById<TextView>(R.id.testview_name)
+            var id = itemView.findViewById<TextView>(R.id.testview_id)
             var descrip = itemView.findViewById<TextView>(R.id.testview_des)
-            id.text = projec.id.toString()
-            descrip.text = projec.apart.toString()
+            id.text = "ID:"+projec.id.toString()
+            descrip.text = "apartamento:"+projec.apart.toString()
         }
     }
 }
