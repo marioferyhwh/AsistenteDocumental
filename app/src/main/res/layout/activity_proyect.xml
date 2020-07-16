@@ -28,6 +28,14 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <Button
+            android:id="@+id/button_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/informacion_general"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but_pr_doc" />
 
         <Button
             android:id="@+id/but_pr_impar"
@@ -36,7 +44,8 @@
             android:text="@string/pr_imparcialiti"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/but_pr_doc" />
+            app:layout_constraintTop_toBottomOf="@+id/button_general" />
+
 
         <Button
             android:id="@+id/but_pr_pre"

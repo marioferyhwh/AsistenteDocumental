@@ -396,7 +396,11 @@
     <string name="l_imparcial10">No tengo vínculos familiares con el residente de la obra objeto de la inspección.</string>
     <string name="l_imparcial11">No tengo vínculos familiares con el dueño.</string>
     <string name="l_imparcial12">No tengo vínculos familiares con el Director de la obra.</string>
-
+    <string name="nuevo_local">nuevo_local</string>
+    <string name="local">local</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="enviar">enviar</string>
+    <string name="informacion_general">informacion general</string>
 
 
 </resources>

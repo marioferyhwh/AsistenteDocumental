@@ -19,6 +19,7 @@
             android:id="@+id/textview_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="no Conforme"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -28,6 +29,7 @@
             android:layout_width="557dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
+            android:hint="Norma"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview_id" />
 
@@ -36,6 +38,7 @@
             android:layout_width="227dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
+            android:hint="Cierre"
             android:textAlignment="center"
             app:layout_constraintEnd_toStartOf="@+id/textview_ret"
             app:layout_constraintTop_toTopOf="@+id/textview_ret" />
