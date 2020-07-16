@@ -24,8 +24,8 @@ class ProyectActivity : AppCompatActivity() {
         }
         //preliminar
         but_pr_pre.setOnClickListener {
-            //val intent = Intent(this, ListVerfEsentialListActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(this, PreliminarActivity::class.java)
+            startActivity(intent)
         }
         //hoja de vida
         but_pr_hv.setOnClickListener {

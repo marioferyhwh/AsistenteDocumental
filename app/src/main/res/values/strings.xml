@@ -372,4 +372,17 @@
     <string name="l_hv5_2">CD con registro fotográfico </string>
 
 
+    <string name="l_preliminar1_1">Casco</string>
+    <string name="l_preliminar1_2">Barbuquejo</string>
+    <string name="l_preliminar1_3">Botas dieléctricas</string>
+    <string name="l_preliminar1_4">Guantes</string>
+    <string name="l_preliminar1_5">Tapa-oidos</string>
+    <string name="l_preliminar1_6">Tapa-bocas</string>
+    <string name="l_preliminar1_7">Gafas</string>
+    <string name="l_preliminar1_8">ARP y EPS</string>
+    <string name="l_preliminar2_1">¿Las condiciones en el sitio son seguras para realizar la inspección?</string>
+    <string name="l_preliminar2_2">¿Se informa al ingreso los posibles riesgos del proyecto</string>
+    <string name="l_preliminar2_3">¿El personal que acompaña en la inspección cuenta con EPP, ARP Y EPS?</string>
+    <string name="l_preliminar2_4">¿Existen personal y equipos (extintores, botiquín, etc.) destinados a la atención de emergencias?</string>
+
 </resources>
