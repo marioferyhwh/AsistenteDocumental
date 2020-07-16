@@ -16,6 +16,11 @@ class ProyectActivity : AppCompatActivity() {
             val intent = Intent(this, DocumentationActivity::class.java)
             startActivity(intent)
         }
+        // informacion general
+        button_general.setOnClickListener {
+            val intent = Intent(this, InformacionGeneralActivity::class.java)
+            startActivity(intent)
+        }
 
         //inparcialidad
         but_pr_impar.setOnClickListener {
@@ -29,8 +34,8 @@ class ProyectActivity : AppCompatActivity() {
         }
         //hoja de vida
         but_pr_hv.setOnClickListener {
-             val intent = Intent(this, HojadDeVidaActivity::class.java)
-             startActivity(intent)
+            val intent = Intent(this, HojadDeVidaActivity::class.java)
+            startActivity(intent)
         }
         //medicion de puesta a tierra
         but_pr_l_ground.setOnClickListener {
