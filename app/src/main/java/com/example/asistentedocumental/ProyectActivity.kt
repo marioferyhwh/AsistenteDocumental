@@ -62,5 +62,10 @@ class ProyectActivity : AppCompatActivity() {
             val intent = Intent(this, ListVerfFinalListActivity::class.java)
             startActivity(intent)
         }
+        //aprobar
+        but_pr_ok.setOnClickListener {
+            val intent = Intent(this, OpenAndCloseActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -243,7 +243,6 @@
     <string name="create">Crear</string>
 
 
-
     <string name="l_final1">Acometidas</string>
     <string name="l_final1_1">Verificar el cable de acometida aérea de baja tensión sea de tipo antifraude (apto para instalaciones a la intemperie). Calibre no menor a 10AWG para capacidad monofásica menor o igual a 3KVA y 8 AWG para instalaciones entre 3KVA y a 10KVA. Conductores de aluminio sean serie AA8000 y dos calibres mayores a la del conductor de cobre.</string>
     <string name="l_final1_2">Verificar las distancias verticales de todos los conductores aéreos de acometida, sobre los tejado (no menor a 0,9 m) y distancia vertical desde el suelo (3,0 m en la acometida de la edificación limitado a 150 V a tierra; 3,6 m sobre edificios residenciales y accesos vehiculares y sobre las zonas comerciales no sujetas a tráfico de camiones limitada a 300 V a tierra; 4,6 m en las zonas mencionadas anteriormente con tensión mayor a 300 V a tierra; 5,5 m sobre calles, callejones, avenidas o carreteras públicas, zonas de aparcamiento con tráfico de camiones, accesos a lugares distintos de las edificaciones residenciales y otros lugares por donde circulen por vehículos, como las zonas de cultivo, de césped, de bosques y huertos.</string>
