@@ -19,8 +19,8 @@ class ProyectActivity : AppCompatActivity() {
 
         //inparcialidad
         but_pr_impar.setOnClickListener {
-            //val intent = Intent(this, ListVerfEsentialListActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(this, ImparcialidadActivity::class.java)
+            startActivity(intent)
         }
         //preliminar
         but_pr_pre.setOnClickListener {

@@ -384,5 +384,19 @@
     <string name="l_preliminar2_2">¿Se informa al ingreso los posibles riesgos del proyecto</string>
     <string name="l_preliminar2_3">¿El personal que acompaña en la inspección cuenta con EPP, ARP Y EPS?</string>
     <string name="l_preliminar2_4">¿Existen personal y equipos (extintores, botiquín, etc.) destinados a la atención de emergencias?</string>
+    <string name="l_imparcial1">No he hecho parte en la realización del diseño de dicho proyecto.</string>
+    <string name="l_imparcial2">No he participado en la construcción de la obra.</string>
+    <string name="l_imparcial3">No he suministrado materiales a la obra</string>
+    <string name="l_imparcial4">No he realizado actividades de consultoría o asesoría.</string>
+    <string name="l_imparcial5">No he realizado actividades de interventoría.</string>
+    <string name="l_imparcial6">No he estado como responsable de la obra.</string>
+    <string name="l_imparcial7">No soy el comprador, ni propietario, ni usuario de la obra objeto de la inspección.</string>
+    <string name="l_imparcial8">No estoy involucrado con el mantenimiento de las instalaciones.</string>
+    <string name="l_imparcial9">No he sido el representante autorizado de ninguna de las personas mencionadas.</string>
+    <string name="l_imparcial10">No tengo vínculos familiares con el residente de la obra objeto de la inspección.</string>
+    <string name="l_imparcial11">No tengo vínculos familiares con el dueño.</string>
+    <string name="l_imparcial12">No tengo vínculos familiares con el Director de la obra.</string>
+
+
 
 </resources>
