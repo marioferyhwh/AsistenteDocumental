@@ -29,8 +29,8 @@ class ProyectActivity : AppCompatActivity() {
         }
         //hoja de vida
         but_pr_hv.setOnClickListener {
-            // val intent = Intent(this, ListVerfEsentialListActivity::class.java)
-            // startActivity(intent)
+             val intent = Intent(this, HojadDeVidaActivity::class.java)
+             startActivity(intent)
         }
         //medicion de puesta a tierra
         but_pr_l_ground.setOnClickListener {

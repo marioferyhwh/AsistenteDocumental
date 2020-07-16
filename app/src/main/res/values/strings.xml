@@ -348,4 +348,28 @@
     <string name="l_final_ret6_11">NTC2050 250-95 NTC2050 220-22</string>
     <string name="l_final_ret6_12">NTC2050 220-22 </string>
 
+    <string name="l_hv2">2. DOCUMENTOS A DILIGENCIAR ANTES DE LA INSPECCIÓN </string>
+    <string name="l_hv2_1">Acta de Apertura y Cierre de proyecto </string>
+    <string name="l_hv2_2">Declaración de imparcialidad </string>
+    <string name="l_hv2_3">Evaluación preliminar de inspección </string>
+    <string name="l_hv2_4">Orden de servicio </string>
+    <string name="l_hv3">3. DOCUMENTOS DE LA CARACTERIZACIÓN </string>
+    <string name="l_hv3_1">Planos eléctricos de proyecto </string>
+    <string name="l_hv3_2">Memorias de cálculo del proyecto </string>
+    <string name="l_hv3_3">Certificados de conformidad del producto </string>
+    <string name="l_hv3_4">Autocertificación por parte del constructor </string>
+    <string name="l_hv3_5">Copia de matrícula profesional del constructor </string>
+    <string name="l_hv3_6">Copia de matrícula profesional del diseñador </string>
+    <string name="l_hv3_7">Copia de matrícula profesional del interventor </string>
+    <string name="l_hv4">4. DOCUMENTOS DE LA INSPECCIÓN VISUAL </string>
+    <string name="l_hv4_1">Lista de verificación Requisitos Esenciales </string>
+    <string name="l_hv4_2">Lista de verificación según tipo de proceso </string>
+    <string name="l_hv4_3">Lista de verificación según uso de la instalación </string>
+    <string name="l_hv4_4">Formato de pruebas </string>
+    <string name="l_hv4_5">Formato de Verificación de Materiales </string>
+    <string name="l_hv5">5. DOCUMENTOS FINALES </string>
+    <string name="l_hv5_1">Dictamen </string>
+    <string name="l_hv5_2">CD con registro fotográfico </string>
+
+
 </resources>
