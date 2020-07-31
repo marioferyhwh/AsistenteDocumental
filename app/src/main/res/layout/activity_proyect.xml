@@ -127,7 +127,7 @@
             android:id="@+id/but_pr_ok"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pr_ok"
+            android:text="ACTA DE APERTURA Y CIERRE"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/but_pr_lv_end" />
