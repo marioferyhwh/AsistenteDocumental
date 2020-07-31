@@ -11,7 +11,7 @@ class DocumentationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_documentation)
         editOk = intent.getBooleanExtra("editOk", false)
-
+/*
         but_asig.setOnClickListener {
 
 
@@ -19,7 +19,8 @@ class DocumentationActivity : AppCompatActivity() {
             intent.putExtra("editOk", editOk)
             startActivity(intent)
         }
-
+*/
+/*
         button1.setOnClickListener {
             var intent = Intent(this,ListEsentialsTest1Activity::class.java)
             startActivity(intent)
@@ -44,6 +45,7 @@ class DocumentationActivity : AppCompatActivity() {
             }
             startActivity(intent)
         }
+        */
 /*
         button5.setOnClickListener {
             var intent = Intent(this,ListEsentialsTest2Activity::class.java).apply {
