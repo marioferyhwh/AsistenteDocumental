@@ -10,7 +10,7 @@ class NewProyectActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_proyect)
         but_pr_doc.setOnClickListener {
-            val intent =Intent(this, DocumentationActivity::class.java)
+            val intent =Intent(this, ProyectActivity::class.java)
             intent.putExtra("editOk",true)
             startActivity(intent)
         }
