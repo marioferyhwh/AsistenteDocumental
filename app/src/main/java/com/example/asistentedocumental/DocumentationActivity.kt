@@ -22,6 +22,14 @@ class DocumentationActivity : AppCompatActivity() {
         editOk = intent.getBooleanExtra("editOk", false)
 
         button5.setOnClickListener {
+            // dispatchTakePictureIntent()
+            /*
+            val intent = Intent(this, ProyectAsigActivity::class.java)
+            intent.putExtra("editOk", editOk)
+            startActivity(intent)
+            */
+        }
+        button6.setOnClickListener {
             dispatchTakePictureIntent()
             /*
             val intent = Intent(this, ProyectAsigActivity::class.java)
